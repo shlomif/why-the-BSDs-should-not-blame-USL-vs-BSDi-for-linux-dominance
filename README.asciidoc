@@ -103,7 +103,14 @@ whatever technical drawbacks they may have, not because of the USL vs BSDI court
 of superior (or possibly less inferior) management by the forces who developed and supported them.
 
 The BSDs should take responsibility for their own problems rather than blame it on a distant past event
-that had limited influence.
+that had limited influence back then and had very little influence since.
 
-Guess what? I don't think it is too late. If say FreeBSD is happy being a niche OS, then they can
-remain that now. If they want to become
+Guess what? I think it may not be too late. If say FreeBSD is happy being a niche OS, then they can
+remain that now. If they want to become more popular than Linux (and possibly overtake both Windows
+and macOS on the desktop - why think small?) they should https://www.joelonsoftware.com/2000/06/03/strategy-letter-iii-let-me-go-back/[admit it]
+and try to see what Linux/etc. is doing better, and how they could catch up and improve upon it. I
+have many theories about what the BSDs may be doing wrong, but they are out of the scope here, and
+others may have different suggestions and may disagree with me.
+
+But to https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars[quote Shakespeare] "`The fault, Dear Brutus,
+is not in our stars`".
