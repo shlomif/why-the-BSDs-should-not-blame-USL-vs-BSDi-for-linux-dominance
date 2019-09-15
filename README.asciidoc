@@ -29,3 +29,5 @@ Note that I used a graphical web browser on the host mageia linux system, to loo
 [id="the_obstacle"]
 The Obstacle:
 -------------
+
+I was unable to proceed because I discovered that https://en.wikipedia.org/wiki/DocBook[DocBook/XML] was still stuck at version 4.5 in pkgsrc (see http://pkgsrc.se/textproc/docbook-xml ) despite the fact that DocBook 5.0 https://docbook.org/schemas/5x.html[was released in 2008] and that it was already available in FreeBSD and many Linux distributions, including some that are likely even less popular than NetBSD (including https://www.mageia.org/en/[Mageia] which I happen to use on some systems and contribute to).
