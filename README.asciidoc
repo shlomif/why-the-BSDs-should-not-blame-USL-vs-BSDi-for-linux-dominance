@@ -52,7 +52,7 @@ I think Israel is doing many things wrong, and must not shift the blame for its 
 
 When I wrote about it in https://shlomif.livejournal.com/10530.html[my blog] I received two
 "you are wrong" comments from two Israeli Jews, and a Jewish coworker of mine scolded me
-for my spite in the workplace. Now I also think Israel should also adopt
+for my spite, after greeting other good morning in the workplace. Now I also think Israel should also adopt
 http://shlomifishswiki.branchable.com/Saladin_Style/[Saladin's long under-recognised approach]
 to justice, peace, and good will through forgiveness, nobility, trust and chivalry which
 helped him convert the Knights Templar from batshit crazy "religious" and violent zealots
@@ -87,13 +87,13 @@ as stupid and incompetent. Monty Python never took any prisoners.
 '''
 
 So what does it have to do with BSD? OK, so the
-[USL vs. BSDI](https://en.wikipedia.org/wiki/UNIX_System_Laboratories,_Inc._v._Berkeley_Software_Design,_Inc.) and it was
+https://en.wikipedia.org/wiki/UNIX_System_Laboratories,_Inc._v._Berkeley_Software_Design,_Inc.[USL vs. BSDI] and it was
 ugly, threw 386BSD and its forks into some confusion and uncertainity, and may have caused some loss of time and man power, but
 do you really think this is the only reason that Linux and GNU are nowadays more popular than the possibly superior FreeBSD,
 NetBSD and OpenBSD?
 
 The trial was over by 1994, and I recall being instructed to use FreeBSD instead of Linux on a
-Pentium I "workstation" desktop box in 1996 back when I worked for [Cortext web design](https://www.shlomifish.org/prog-evolution/shlomif-at-cortext.html)
+Pentium I "workstation" desktop box in 1996 back when I worked for https://www.shlomifish.org/prog-evolution/shlomif-at-cortext.html[Cortext web design]
 because they told me it was much more mature and better, and were probably right. Paul Graham http://paulgraham.com/javacover.html[thought] that
 FreeBSD and not Linux would diminish Sun's server market as late as 2001, when I already used Red Hat Linux or Mandrake Linux as a desktop
 OS and was happy with my choice.
