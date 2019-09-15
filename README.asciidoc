@@ -8,13 +8,13 @@ Shlomi Fish <shlomif@cpan.org>
 TL;DR Summary
 -------------
 
-My public-facing projects (open source ones/etc) cannot support NetBSD[https://www.netbsd.org/] yet, despite being capable of being built and tested on many Linux distributions, FreeBSD, and often also Microsoft Windows, due to the lack of version 5 of DocBook/XML in pkgsrc[http://www.pkgsrc.org/] .
+My public-facing projects (open source ones/etc) cannot support https://www.netbsd.org/[NetBSD] yet, despite being capable of being built and tested on many Linux distributions, FreeBSD, and often also Microsoft Windows, due to the lack of version 5 of DocBook/XML in http://www.pkgsrc.org/[pkgsrc].
 
 [id="intro"]
 Introduction
 ------------
 
-This is a sequel to a previous feature[https://github.com/shlomif/what-i-learned-from-porting-to-freebsd] about what I learned from porting my projects to build and pass tests FreeBSD and which received some coverage on reddit and hackernews. In a hackernews comment, someone suggested that "`now you should try openbsd or netbsd, as they are even less tolerant of linux-isms`". As this comment seemed to be of merit, I decided to try porting them to NetBSD which I heard was easier to install at the time than OpenBSD (which may no longer be true).
+This is a sequel to a previous https://github.com/shlomif/what-i-learned-from-porting-to-freebsd[feature] about what I learned from porting my projects to build and pass tests FreeBSD and which received some coverage on reddit and hackernews. In a hackernews comment, someone suggested that "`now you should try openbsd or netbsd, as they are even less tolerant of linux-isms`". As this comment seemed to be of merit, I decided to try porting them to NetBSD which I heard was easier to install at the time than OpenBSD (which may no longer be true).
 
 Note that I don't expect this sequel to be as popular as the original, and I'm not writing it for achieving worldwide fame and fortune, just as an update on my progress.
 
