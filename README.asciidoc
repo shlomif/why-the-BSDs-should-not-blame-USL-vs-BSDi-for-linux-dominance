@@ -1,0 +1,166 @@
+Why my projects cannot support NetBSD (yet)
+===========================================
+Shlomi Fish <shlomif@cpan.org>
+:Date: 2019-15-09
+:Revision: $Id$
+
+[id="summary"]
+TL;DR Summary
+-------------
+
+My public-facing projects (open source ones/etc) cannot support NetBSD[https://www.netbsd.org/] yet, despite being capable of being built and tested on many Linux distributions, FreeBSD, and often also Microsoft Windows, due to the lack of version 5 of DocBook/XML in pkgsrc[http://www.pkgsrc.org/] .
+
+[id="intro"]
+Introduction
+------------
+
+This is a sequel to a previous feature[https://github.com/shlomif/what-i-learned-from-porting-to-freebsd] about what I learned from porting my projects to build and pass tests FreeBSD and which received some coverage on reddit and hackernews. In a hackernews comment, someone suggested that "`now you should try openbsd or netbsd, as they are even less tolerant of linux-isms`". As this comment seemed to be of merit, I decided to try porting them to NetBSD which I heard was easier to install at the time than OpenBSD (which may no longer be true).
+
+Note that I don't expect this sequel to be as popular as the original, and I'm not writing it for achieving worldwide fame and fortune, just as an update on my progress.
+
+[id="the_projects"]
+The Projects
+------------
+
+* https://github.com/shlomif/shlomif-computer-settings/ (my dotfiles).
+
+* https://web-cpan.shlomifish.org/latemp/
+
+* https://fc-solve.shlomifish.org/
+
+* https://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver/
+
+* https://better-scm.shlomifish.org/source/
+
+* http://perl-begin.org/source/
+
+* https://www.shlomifish.org/meta/site-source/
+
+* Written using a mix of C, Perl 5, Python, Ruby, GNU Bash, XML, CMake, XSLT,
+XHTML5, XHTML1.1, https://github.com/thewml/website-meta-language[Website META Language], JavaScript and more.
+
+* Work fine on several Linux distributions and have
+https://en.wikipedia.org/wiki/Travis_CI using Ubuntu 14.04 hosts
+
+* Some pass builds and tests on AppVeyor/Win64
+
+[id="lessons"]
+What I Learned:
+---------------
+
+[id="reliable"]
+FreeBSD on VBox has become very reliable
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Survived a host power interruption - https://twitter.com/shlomif/status/1048852791987527680 .
+
+* I recall that some years back, rebooting with X running (because input was
+not enabled) has https://en.wikipedia.org/wiki/List_of_military_slang_terms#FUBAR[FUBARed] the +/etc+ directory prompting a reinstall, so freebsd on vbox has come a long way.
+
+[id="usr_local"]
+Some executables on FreeBSD are in /usr/local/bin instead of /usr/bin
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+On Linux they are almost always in +/usr/bin/+
+
+* https://github.com/shlomif/shlomif-computer-settings/blob/master/shlomif-settings/home-bin-executables/bin/fix-perl-shebang.pl[script to fix the perl shebang line]
+
+* +/usr/bin/env+ is your friend.
+
+* https://www.freebsd.org/cgi/man.cgi?hier%287%29[man hier(7)] explains the
+difference.
+
+[id="gmake"]
+make on FreeBSD is not GNU make
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* One can call +gmake+
+
+* No +gmake+ on Debian/Ubuntu/etc.
++
+* Solution for Debian:
++
+--------------
+mkdir -p ~/bin
+ln -sf /usr/bin/make ~/bin/gmake
+export PATH="$HOME/bin:$PATH"
+--------------
+
+[id="m4"]
+m4 on FreeBSD is not compatible with GNU m4
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Fixed in https://github.com/thewml/website-meta-language/commit/97c4ce264b66c880ea0016c096fda9d3188c0f4e[this commit] by first checking for +gm4+ and
+then falling back on plain +m4+.
+
+[id="cpan_dists"]
+Some CPAN Modules fail to install using local-lib there
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* No idea why.
+
+* Sometimes +cpanm -n+ ("no test") helps.
+
+* +pkg install -y p5-Foo-Bar+ as root for other times.
+
+[id="docbook_xsl"]
+DocBook/XSL Does Not Live Under /usr/share/sgml
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Fixed using a symlink on the freebsd system.
+
+* Unhappy with this solution.
+
+[id="grep_dash_P"]
+FreeBSD's grep does not have a "-P" flag by default
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* "-P" is not in http://pubs.opengroup.org/onlinepubs/009695399/utilities/grep.html[POSIX grep]
+
+* Solution:
++
+-----------------
+-        ) | grep -vP '^<\?xml ver' \
++        ) | perl -p -0777 -e 's%\A<\?xml ver[^>]*>%%' \
+-----------------
+
+* Does not exactly do the same operation, but even more correct.
+
+* {blank}
++
+[quote, Guy Keren]
+Perl is portable shell
+
+[id="nproc"]
+FreeBSD has no "nproc" command
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* https://unix.stackexchange.com/questions/108821/number-of-cores-on-freebsd
+
+* Added a small shell exe under +~/bin/nproc+ .
+
+[id="to_do"]
+What still does not work:
+-------------------------
+
+* Valgrind tests fail - possibly due to https://github.com/shlomif/perl-Test-RunValgrind/issues/5[this bug]
+
+* Spellchecking tests fail, like on Ubuntu, as it seems https://en.wikipedia.org/wiki/Hunspell[hunspell] has system-dependent dictionaries.
+
+[id="conclusion"]
+Conclusion:
+-----------
+
+[quote, Larry Wall]
+https://www.quotes.net/quote/34583[It is easier to port a shell than a shell script.]
+
+* I ran into some cases where my scriptology was lacking and suboptimal, even
+for my own personal use, and fixed them.
+
+[id="coverage"]
+Coverage:
+---------
+
+* https://www.reddit.com/r/freebsd/comments/9ncmrs/what_i_learned_from_porting_my_projects_to_freebsd/[On the /r/freebsd subreddit] - with some discussion
+
+* https://news.ycombinator.com/item?id=18318771[Hacker News comments] - with some discussion
