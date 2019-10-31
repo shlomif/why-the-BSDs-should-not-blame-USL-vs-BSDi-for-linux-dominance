@@ -40,46 +40,57 @@ I believe that supporting DocBook/XML 5.0 is important enough for many other FOS
 Addendum: why the BSDs should not blame the USL vs BSDi lawsuits for Linux's dominance
 --------------------------------------------------------------------------------------
 
-It is always easier to blame your problems on someone else, the world at large or a past event.
-It is also usually wrong because only you can fix your problem, and the problem may be at you.
+It is always easier to blame your problems on someone else, the world at large
+or a past event.  It is also usually wrong because only you can fix your
+problems, and the fault may be at you.
 
-Here are some examples: from my impression most Israeli Jews blame the Lebanese, the Hizbullah,
-Syria and/or Iran with whatever violent acts happen in the Israel-Lebanon border. I, on the other hand,
-despite being an Israeli citizen, an ethnic (but secular) Jew, and an Israeli resident, who likes
-living in Israel, and does not support the complete abolishment of the State of Israel — blames
-Israel for all that. It's not that I think the our enemies are good and benevolent, it's just that
-I think Israel is doing many things wrong, and must not shift the blame for its own problems.
+Here are some examples: from my impression most Israeli Jews blame the
+Lebanese, the Hizbullah, Syria and/or Iran with whatever violent acts happen in
+the Israel-Lebanon border. I, on the other hand, despite being an Israeli
+citizen, an ethnic (but secular) Jew, and an Israeli resident, who likes living
+in Israel, and does not support the complete abolishment of the State of Israel
+— blames Israel for all that. It's not that I think the our enemies are good
+and benevolent, it's just that I think Israel is doing many things wrong, and
+must not shift the blame for its own problems.
 
-When I wrote about it in https://shlomif.livejournal.com/10530.html[my blog] I received two
-"you are wrong" comments from two Israeli Jews, and a Jewish coworker of mine scolded me
-for my spite, after greeting other good morning in the workplace. Now I also think Israel should also adopt
-http://shlomifishswiki.branchable.com/Saladin_Style/[Saladin's long under-recognised approach]
-to justice, peace, and good will through forgiveness, nobility, trust and chivalry which
-helped him convert the Knights Templar from batshit crazy "religious" and violent zealots
-(who were much less sane than even the most zealous 21st century Muslim activist) into
-people who were rational, non-violent, mostly sane, and refused to fight his forces even
-under the orders of their religious leaders. (And naturally, he didn't actively harm the
-innocent civilians who had previously suffered from the Knights reign of terror.
-I believe a modern take on this approach, will work with Hizbullah militants as well,
-but our bylaws necessitate "punishing" the offenders by jail time.
+When I wrote about it in https://shlomif.livejournal.com/10530.html[my blog] I
+received two "you are wrong" comments from two Israeli Jews, and a Jewish
+coworker of mine scolded me for my spite, after greeting other good morning in
+the workplace. Now I also think Israel should also adopt
+http://shlomifishswiki.branchable.com/Saladin_Style/[Saladin's long
+under-recognised approach] to justice, peace, and good will through
+forgiveness, nobility, trust and chivalry which helped him convert the Knights
+Templar from batshit crazy "religious" and violent zealots (who were much less
+sane than even the most zealous 21st century Muslim activist) into people who
+were rational, non-violent, mostly sane, and refused to fight his forces even
+under the orders of their religious leaders. (And naturally, he didn't actively
+harm the innocent civilians who had previously suffered from the Knights reign
+of terror.)  I believe a modern take on this approach, will work with Hizbullah
+militants as well, but our bylaws necessitate "punishing" the offenders by jail
+time.
 
-Anyway, I later talked with a man who resided in Lebanon on https://en.wikipedia.org/wiki/Freenode[Freenode]
-and despite whatever hardships he may have suffered from Israeli air raids (hard to know how much because
-media coverage is skewed) told me that he thinks Lebanon is to blame. I later pointed him to my
-https://www.shlomifish.org/[home site] where I published some essays and stories on this issue (and
-many others) and he later emailed me saying that he agreed with my opinions.
+Anyway, I later talked with a man who resided in Lebanon on
+https://en.wikipedia.org/wiki/Freenode[Freenode] and despite whatever hardships
+he may have suffered from Israeli air raids (hard to know how much because
+the media coverage is skewed) told me that he thinks Lebanon is to blame. I later
+pointed him to my https://www.shlomifish.org/[home site] where I published some
+essays and stories on this issue (and many others) and he later emailed me
+saying that he agreed with my opinions.
 
-When I told all that to a different Israeli jewish and secular friend in a different Internet chat,
-he told me and the other participants that making peace would be easy if the two of us were the
-leaders of Israel and Lebanon.
+When I told all that to a different Israeli jewish and secular friend in a
+different Internet chat, he told me and the other participants that making
+peace would be easy if the two of us were the leaders of Israel and Lebanon.
 
 '''
 
 Here is another example: many people have placed the blame on the poor economic
-performance of some former British empire colonies on the former British occupiers.
+performance of some former British empire colonies on the former British
+occupiers.
+
 But as https://www.youtube.com/watch?v=p-fRo5-p9hE[Monty Python brilliantly and
 amusingly pointed in their sketch "What have the Romans done to us"], they were
 not quite so bad, and the blame was on the former colonies' governments mismanagement.
+
 And for Monty Python's defence, while that sketch appears to be pro-Roman
 and anti-Judean, they have many other scenes in https://en.wikipedia.org/wiki/Monty_Python%27s_Life_of_Brian[the film] portraying the Romans
 as stupid and incompetent. Monty Python never took any prisoners.
@@ -87,30 +98,40 @@ as stupid and incompetent. Monty Python never took any prisoners.
 '''
 
 So what does it have to do with BSD? OK, so the
-https://en.wikipedia.org/wiki/UNIX_System_Laboratories,_Inc._v._Berkeley_Software_Design,_Inc.[USL vs. BSDI] and it was
-ugly, threw 386BSD and its forks into some confusion and uncertainity, and may have caused some loss of time and man power, but
-do you really think this is the only reason that Linux and GNU are nowadays more popular than the possibly superior FreeBSD,
-NetBSD and OpenBSD?
+https://en.wikipedia.org/wiki/UNIX_System_Laboratories,_Inc._v._Berkeley_Software_Design,_Inc.[USL
+vs. BSDI] trial took place and it was ugly, threw 386BSD and its forks into
+some confusion and uncertainity, and may have caused some loss of time and man
+power, but do you really think this is the only reason that Linux and GNU are
+nowadays more popular than the possibly superior FreeBSD, NetBSD and OpenBSD?
 
-The trial was over by 1994, and I recall being instructed to use FreeBSD instead of Linux on a
-Pentium I "workstation" desktop box in 1996 back when I worked for https://www.shlomifish.org/prog-evolution/shlomif-at-cortext.html[Cortext web design]
-because they told me it was much more mature and better, and were probably right. Paul Graham http://paulgraham.com/javacover.html[thought] that
-FreeBSD and not Linux would diminish Sun's server market as late as 2001, when I already used Red Hat Linux or Mandrake Linux as a desktop
-OS and was happy with my choice.
+The trial was over by 1994, and I recall being instructed to use FreeBSD
+instead of Linux on a Pentium I "workstation" desktop box in 1996 back when I
+worked for
+https://www.shlomifish.org/prog-evolution/shlomif-at-cortext.html[Cortext web
+design] because they told me it was much more mature and better, and were
+probably right. Paul Graham http://paulgraham.com/javacover.html[thought] that
+FreeBSD and not Linux would diminish Sun's server market as late as 2001, when
+I already used Red Hat Linux or Mandrake Linux as a desktop OS and was happy
+with my choice.
 
-But now the Linux kernel and its GNU / etc. runtime are now much more popular than the BSDs despite
-whatever technical drawbacks they may have, not because of the USL vs BSDI court case, but because
-of superior (or possibly less inferior) management by the forces who developed and supported them.
+But now the Linux kernel and its GNU / etc. runtime are now much more popular
+than the BSDs despite whatever technical drawbacks they may have, not because
+of the USL vs BSDI court case, but because of superior (or possibly less
+inferior) management by the forces who developed and supported them.
 
-The BSDs should take responsibility for their own problems rather than blame it on a distant past event
-that had limited influence back then and had very little influence since.
+The BSDs should take responsibility for their own problems rather than blame it
+on a distant past event that had limited influence back then and had very
+little influence since.
 
-Guess what? I think it may not be too late. If say FreeBSD is happy being a niche OS, then they can
-remain that now. If they want to become more popular than Linux (and possibly overtake both Windows
-and macOS on the desktop - why think small?) they should https://www.joelonsoftware.com/2000/06/03/strategy-letter-iii-let-me-go-back/[admit it]
-and try to see what Linux/etc. is doing better, and how they could catch up and improve upon it. I
-have many theories about what the BSDs may be doing wrong, but they are out of the scope here, and
-others may have different suggestions and may disagree with me.
+Guess what? I think it may not be too late. If say FreeBSD is happy being a
+niche OS, then they can remain that now. If they want to become more popular
+than Linux (and possibly overtake both Windows and macOS on the desktop - why
+think small?) they should
+https://www.joelonsoftware.com/2000/06/03/strategy-letter-iii-let-me-go-back/[admit
+it] and try to see what Linux/etc. is doing better, and how they could catch up
+and improve upon it. I have many theories about what the BSDs may be doing
+wrong, but they are out of the scope here, and others may have different
+suggestions and may disagree with me.
 
-But to https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars[quote Shakespeare] "`The fault, Dear Brutus,
-is not in our stars`".
+But to https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars[quote Shakespeare]
+"`The fault, Dear Brutus, is not in our stars`".
