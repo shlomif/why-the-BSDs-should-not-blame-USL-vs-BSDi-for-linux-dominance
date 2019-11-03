@@ -32,7 +32,7 @@ The Obstacle:
 
 I was unable to proceed because I discovered that https://en.wikipedia.org/wiki/DocBook[DocBook/XML] was still stuck at version 4.5 in pkgsrc (see http://pkgsrc.se/textproc/docbook-xml ) despite the fact that DocBook 5.0 https://docbook.org/schemas/5x.html[was released in 2008] (over 10 years ago) and that it was already available in FreeBSD and many Linux distributions, including some that are likely even less popular than NetBSD (including https://www.mageia.org/en/[Mageia] which I happen to use on some systems and which I contribute to).
 
-Since I lack the knowledge and interest to prepare a DocBook/XML 5.x port for pkgsrc/NetBSD and it seemed like general negligence or apathy towards it, and pojects that make use of it, I decided that I won't officially support building my projects there. It may work or it may not, but you'll need to install DocBook 5.x or contribute a package to pkgsrc yourself. Patches and pull requests that improve portability to NetBSD, OpenBSD, or other non-EOLed Unix-like OSes or non-EOLed MS Windows versions, will be welcome and reviewed and hopefully merged. You can still ask me for help, but I may say that I do not support pkgsrc-based OSes and ask you to either use a different OS (possibly inside a VM), give up, or do the work yourself.
+Since I lack the knowledge and interest to prepare a DocBook/XML 5.x port for pkgsrc/NetBSD and it seemed like general negligence or apathy towards it, and projects that make use of it, I decided that I won't officially support building my projects there. It may work or it may not, but you'll need to install DocBook 5.x or contribute a package to pkgsrc yourself. Patches and pull requests that improve portability to NetBSD, OpenBSD, or other non-EOLed Unix-like OSes or non-EOLed MS Windows versions, will be welcome and reviewed and hopefully merged. You can still ask me for help, but I may say that I do not support pkgsrc-based OSes, and ask you to either use a different OS (possibly inside a VM), give up, or do the work yourself.
 
 I believe that supporting DocBook/XML 5.0 is important enough for many other FOSS projects that use it, that upgrading to it should be a priority for pkgsrc, and I am surprised that it fell between the chairs for so long. I was told that FreeBSD has more manpower than NetBSD, although it may have other organisational issues - a fact which may explain the issue.
 
@@ -56,15 +56,15 @@ must not shift the blame for its own problems.
 When I wrote about it in https://shlomif.livejournal.com/10530.html[my blog] I
 received two "you are wrong" comments from two Israeli Jews, and a Jewish
 coworker of mine scolded me for my spite, after greeting other good morning in
-the workplace. Now I also think Israel should also adopt
+the workplace. Now I also think Israel should adopt
 http://shlomifishswiki.branchable.com/Saladin_Style/[Saladin's long
 under-recognised approach] to justice, peace, and good will through
-forgiveness, nobility, trust and chivalry which helped him convert the Knights
+forgiveness, nobility, trust, and chivalry which helped him convert the Knights
 Templar from batshit crazy "religious" and violent zealots (who were much less
 sane than even the most zealous 21st century Muslim activist) into people who
 were rational, non-violent, mostly sane, and refused to fight his forces even
 under the orders of their religious leaders. (And naturally, he didn't actively
-harm the innocent civilians who had previously suffered from the Knights reign
+harm the innocent civilians who had previously suffered from the Knights' reign
 of terror.)  I believe a modern take on this approach, will work with Hizbullah
 militants as well, but our bylaws necessitate "punishing" the offenders by jail
 time.
@@ -77,7 +77,7 @@ pointed him to my https://www.shlomifish.org/[home site] where I published some
 essays and stories on this issue (and many others) and he later emailed me
 saying that he agreed with my opinions.
 
-When I told all that to a different Israeli jewish and secular friend in a
+When I told all that to a different Israeli, Jewish, and secular friend, in a
 different Internet chat, he told me and the other participants that making
 peace would be easy if the two of us were the leaders of Israel and Lebanon.
 
@@ -120,7 +120,7 @@ of the USL vs BSDI court case, but because of superior (or possibly less
 inferior) management by the forces who developed and supported them.
 
 The BSDs should take responsibility for their own problems rather than blame it
-on a distant past event that had limited influence back then and had very
+on a distant past event that had limited influence back then, and had very
 little influence since.
 
 Guess what? I think it may not be too late. If say FreeBSD is happy being a
