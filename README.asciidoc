@@ -23,7 +23,7 @@ http://shlomifishswiki.branchable.com/Saladin_Style/[Saladin's long
 under-recognised approach] to justice, peace, and good will through
 forgiveness, nobility, trust, and chivalry which helped him convert the Knights
 Templar from batshit crazy "religious" and violent zealots (who were much less
-sane than even the most zealous 21st century Muslim activist) into people who
+sane than even the most zealous 21st century Muslim activists) into people who
 were rational, non-violent, mostly sane, and refused to fight his forces even
 under the orders of their religious leaders. (And naturally, he didn't actively
 harm the innocent civilians who had previously suffered from the Knights' reign
@@ -68,7 +68,7 @@ power, but do you really think this is the only reason that Linux and GNU are
 nowadays more popular than the possibly superior FreeBSD, NetBSD and OpenBSD?
 
 The trial was over by 1994, and I recall being instructed to use FreeBSD
-instead of Linux on a Pentium I "workstation" desktop box in 1996 back when I
+instead of Linux on a Pentium 1 "workstation" desktop box in 1996 back when I
 worked for
 https://www.shlomifish.org/prog-evolution/shlomif-at-cortext.html[Cortext web
 design] because they told me it was much more mature and better, and were
@@ -86,7 +86,7 @@ The BSDs should take responsibility for their own problems rather than blame it
 on a distant past event that had limited influence back then, and had very
 little influence since.
 
-Guess what? I think it may not be too late. If say FreeBSD is happy being a
+And guess what? I think it may not be too late. If say FreeBSD is happy being a
 niche OS, then they can remain that now. If they want to become more popular
 than Linux (and possibly overtake both Windows and macOS on the desktop - why
 think small?) they should
@@ -97,4 +97,4 @@ wrong, but they are out of the scope here, and others may have different
 suggestions and may disagree with me.
 
 But to https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars[quote Shakespeare]
-"`The fault, Dear Brutus, is not in our stars`".
+"The fault, Dear Brutus, is not in our stars".
