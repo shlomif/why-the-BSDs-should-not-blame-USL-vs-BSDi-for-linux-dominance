@@ -1,5 +1,5 @@
 Why the BSDs should not blame the USL vs BSDi lawsuits for Linux's dominance
-===========================================
+============================================================================
 
 [id="bsd_blame"]
 It is always easier to blame your problems on someone else, the world at large
