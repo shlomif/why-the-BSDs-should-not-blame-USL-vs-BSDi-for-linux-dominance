@@ -55,7 +55,7 @@ And for Monty Python's defence, while that sketch appears to be pro-Roman and an
 '''
 
 So what does it have to do with BSD? OK, so the
-https://en.wikipedia.org/wiki/UNIX_System_Laboratories,_Inc._v._Berkeley_Software_Design,_Inc.[USL vs. BSDI]
+link:https://en.wikipedia.org/wiki/UNIX_System_Laboratories%2C_Inc._v._Berkeley_Software_Design%2C_Inc.[USL vs. BSDI]
 trial took place and it was ugly, threw 386BSD and its forks into
 some confusion and uncertainity, and may have caused some loss of time and man
 power, but do you really think this is the only reason that Linux and GNU are
