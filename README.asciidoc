@@ -38,7 +38,7 @@ pointed him to my https://www.shlomifish.org/[home site] where I published some
 essays and stories on this issue (and many others) and he later emailed me
 saying that he agreed with my opinions.
 
-When I told all that to a different Israeli, Jewish, and secular friend, in a
+When I told all that to a different Israeli, Jewish, and secular, friend, in a
 different Internet chat, he told me and the other participants that making
 peace would be easy if the two of us were the leaders of Israel and Lebanon.
 
@@ -48,7 +48,7 @@ Here is another example: many people have placed the blame on the poor economic
 performance of some former British empire colonies on the former British
 occupiers.
 
-But as Monty Python brilliantly and amusingly pointed in https://www.youtube.com/watch?v=p-fRo5-p9hE[their sketch "What have the Romans done to us"], they were not quite so bad, and the blame was on the former colonies' governments mismanagement.
+But as Monty Python brilliantly and amusingly pointed in https://www.youtube.com/watch?v=p-fRo5-p9hE[their sketch "What have the Romans done for us"], they were not quite so bad, and the blame was on the mismanagement of the former colonies' governments.
 
 And for Monty Python's defence, while that sketch appears to be pro-Roman and anti-Judean, they have many other scenes in https://en.wikipedia.org/wiki/Monty_Python%27s_Life_of_Brian[the film] portraying the Romans as stupid and incompetent. Monty Python never took any prisoners.
 
@@ -86,7 +86,7 @@ than Linux (and possibly overtake both Windows and macOS on the desktop - why
 think small?) they should
 https://www.joelonsoftware.com/2000/06/03/strategy-letter-iii-let-me-go-back/[admit it]
 and try to see what Linux/etc. is doing better, and how they could catch up
-and improve upon it. I have many theories about what the BSDs may be doing
+and improve upon it. I have several hypotheses about what the BSDs may be doing
 wrong, but they are out of the scope here, and others may have different
 suggestions and may disagree with me.
 
