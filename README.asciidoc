@@ -92,3 +92,13 @@ suggestions and may disagree with me.
 
 But to https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars[quote Shakespeare]
 "The fault, Dear Brutus, is not in our stars".
+
+[id="continuations"]
+Continuations / sequels / updates:
+----------------------------------
+
+* https://github.com/shlomif/what-i-learned-from-porting-to-freebsd["What I learned from porting my projects to FreeBSD"]
+
+* https://github.com/shlomif/why-my-projects-cannot-support-netbsd-yet["Why my projects cannot support NetBSD (yet)"]
+
+* https://github.com/shlomif/why-the-BSDs-should-not-blame-USL-vs-BSDi-for-linux-dominance["Why the BSDs should not blame the USL vs BSDi lawsuits for Linux’s dominance"]
